@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	sharedrepository = 0600
+	worktree = /home/turnips
+[receive]
+	denyNonFastforwards = true
+[status]
+	showUntrackedFiles = no
+[yadm]
+	managed = true
+[remote "origin"]
+	url = keybase://private/barnabyclaydon/turnips
+	fetch = +refs/heads/*:refs/remotes/origin/*
