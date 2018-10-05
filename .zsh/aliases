@@ -1,0 +1,10 @@
+alias l='ls -alhFG'
+alias mv='mv -v'
+alias cp='cp -Rvi'
+alias h='history'
+alias own='sudo chown -R barnaby .'
+alias d='du -h -d 1'
+
+alias gp='git pull'
+alias gbd='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort'
+
