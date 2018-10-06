@@ -16,5 +16,6 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy-mm-dd"
 
-
+# todo
+# https://unix.stackexchange.com/questions/1397/change-prompt-color-depending-on-user-or-root-in-zsh
 

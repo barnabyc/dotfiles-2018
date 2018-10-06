@@ -13,3 +13,9 @@
 [remote "origin"]
 	url = keybase://private/barnabyclaydon/turnips
 	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	name = Mr Tinkles
+	email = mr.tinkles@volved.com
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
