@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# todo: confirm we have perms to run apt install
+
+# this will pull down antigen-hs
+yadm submodule update --init --recursive
+
+# Install Haskell Stack dependency for antigen-hs
+apt install haskell-stack
+
+
+# todo: confirm exit code here before proceeding
+
+# this should setup antigen-hs by building a Haskell Stack sandbox and downloading all the dependencies
+source ~/.zsh/antigen-hs/init.zsh
+
+# perform one-time build of git prompt plugin
+cd ~/.antigen-hs/repos/https-COLON--SLASH--SLASH-github.com-SLASH-barnabyc-SLASH-zsh-git-prompt
+stack setup && stack build && stack install
+cd ~
+
+
+# start a new shell to initialize antigen-hs
+env zsh
+
+# todo: this may be unnecessary?
+# ensure antigen-hs fully setup
+# antigen-sh-setup
+
+
