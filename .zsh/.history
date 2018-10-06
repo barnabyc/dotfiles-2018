@@ -1,0 +1,145 @@
+: 1538782002:0;l
+: 1538782007:0;alias l
+: 1538782024:0;cat .zsh/options
+: 1538782033:0;exit
+: 1538782137:0;cat .zsh/antigen-hs/Makefile
+: 1538782145:0;cat .zsh/MyAntigen.hs
+: 1538782151:0;vi .zsh/MyAntigen.hs
+: 1538782778:0;antigen-hs-setup
+: 1538782796:0;exit
+: 1538782807:0;yadm status
+: 1538782834:0;yadm add .zsh/MyAntigen.hs .zshrc .zsh/options .zsh/aliases
+: 1538782837:0;yadm commit
+: 1538782854:0;yadm push
+: 1538794715:0;autoload colors
+: 1538794721:0;exit
+: 1538794823:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+: 1538795099:0;spectrum_ls
+: 1538795104:0;apt search spectrum_ls
+: 1538795173:0;function spectrum_ls() {\
+  for code in {000..255}; do\
+    print -P -- "$code: %F{$code}$ZSH_SPECTRUM_TEXT%f"\
+  done\
+}
+: 1538795177:0;spectrum_ls
+: 1538795222:0;function spectrum_ls() {\
+  for code in {000..255}; do\
+    print -P -- "$code: %F{$code}The quick brown fox jumps over the lazy dog.%f"\
+  done\
+}
+: 1538795225:0;spectrum_ls
+: 1538795267:0;cho $TERM
+: 1538795269:0;echo $TERM
+: 1538795293:0;exit
+: 1538795467:0;function spectrum_ls() {\
+  for code in {000..255}; do\
+    print -P -- "$code: %F{$code}The quick brown fox jumps over the lazy dog.%f"\
+  done\
+}
+: 1538795471:0;echo $TERM
+: 1538795482:0;export TERM=screen-256color\
+
+: 1538795485:0;export TERM=screen-256color
+: 1538795493:0;spectrum_ls
+: 1538795536:0;tmux --version
+: 1538795545:0;man tmux
+: 1538795559:0;man tmux
+: 1538795567:0;tmux -V
+: 1538795659:0;man tmux
+: 1538795671:0;vi .tmux.conf
+: 1538795694:0;yadm add .tmux.conf
+: 1538795701:0;yadm commit
+: 1538795720:0;yadm status
+: 1538795749:0;vi .zsh/functions
+: 1538795764:0;nano .zsh/functions
+: 1538795802:0;vi .zshrc
+: 1538796086:0;yadm status
+: 1538796098:0;yadm add .zshrc
+: 1538796112:0;yadm commit
+: 1538796143:0;vi .zshrc
+: 1538796192:0;vi .zshrc
+: 1538796338:0;cat .gitignore
+: 1538796474:0;yadm list
+: 1538796492:0;yadm list -a
+: 1538796508:0;l .yadm
+: 1538796517:0;l
+: 1538796520:0;l .yadm
+: 1538796541:0;alias l
+: 1538796552:0;alias l='ls -alhFG --color=auto'
+: 1538796553:0;l
+: 1538796558:0;l .yadm
+: 1538796566:0;man ls
+: 1538796584:0;vi .zsh/aliases
+: 1538796605:0;yadm status
+: 1538796611:0;cat .yadm/repo.git/config
+: 1538796636:0;yadm status
+: 1538796647:0;cat .yadm/repo.git/index.lock
+: 1538796656:0;l .yadm
+: 1538796663:0;yadm add .
+: 1538796680:0;yadm status
+: 1538796686:0;yadm add .yadm/repo.git
+: 1538796691:0;yadm status
+: 1538796695:0;yadm add .yadm/repo.git/config
+: 1538796701:0;yadm add .yadm/repo.git/index.lock
+: 1538796708:0;yadm add .zsh/aliases
+: 1538796711:0;yadm add .zshrc
+: 1538796714:0;yadm commit
+: 1538796733:0;yadm push
+: 1538796738:0;yadm status
+: 1538796817:0;rm .yadm/repo.git/index.lock
+: 1538796829:0;yadm gitrm .yadm/repo.git/index.lock
+: 1538796885:0;yadm rm .yadm/repo.git/index.lock
+: 1538796892:0;yadm status
+: 1538796903:0;yadm checkout .yadm/repo.git/index.lock
+: 1538796908:0;yadm status
+: 1538796915:0;rm .yadm/repo.git/index.lock
+: 1538796918:0;yadm status
+: 1538796930:0;exit
+: 1538796941:0;yadm status
+: 1538796985:0;rm .yadm/repo.git/index
+: 1538796995:0;yadm status
+: 1538797003:0;yadm reset HEAD
+: 1538797005:0;yadm status
+: 1538797029:0;cat .gitmodules
+: 1538797034:0;cat .gitignore
+: 1538797050:0;exit
+: 1538797396:0;yadm status
+: 1538797401:0;yadm add .zsh/functions
+: 1538797404:0;yadm commit
+: 1538797415:0;yadm push
+: 1538797430:0;yadm pull
+: 1538797439:0;yadm push
+: 1538797595:0;l
+: 1538797679:0;l .antigen-hs
+: 1538797690:0;l .zsh/antigen-hs
+: 1538797729:0;l .zsh
+: 1538797825:0;yadm pull
+: 1538797832:0;l
+: 1538797834:0;cd .zsh
+: 1538797835:0;l
+: 1538797836:0;cd antigen-hs
+: 1538797837:0;l
+: 1538797843:0;cd ..
+: 1538797845:0;l
+: 1538797846:0;cd ..
+: 1538797846:0;l
+: 1538797848:0;yadm status
+: 1538797857:0;cat .gitignore
+: 1538797866:0;l .antigen-hs
+: 1538797879:0;yadm add .gitignore
+: 1538797885:0;yadm commit
+: 1538797898:0;yadm push
+: 1538797924:0;l .yadm
+: 1538797928:0;l .yadm/repo.git
+: 1538798058:0;vi .yadm/bootstrap
+: 1538798290:0;yadm status
+: 1538798300:0;yadm add .yadm/bootstrap
+: 1538798304:0;yadm commit
+: 1538798328:0;yadm status
+: 1538798331:0;yadm status -unormal
+: 1538798348:0;l README
+: 1538798351:0;cat README
+: 1538798361:0;cat .yadm/config
+: 1538798393:0;yadm add .yadm/config
+: 1538798411:0;yadm add .zsh/history
+: 1538798419:0;yadm add .zsh/.history
