@@ -1,5 +1,6 @@
 source ~/.zsh/options
 source ~/.zsh/aliases
+source ~/.zsh/functions
 
 # via https://github.com/starcraftman/zsh-git-prompt
 GIT_PROMPT_EXECUTABLE="haskell"
