@@ -1,4 +1,4 @@
-[submodule "zsh/antigen-hs"]
-	path = zsh/antigen-hs
+[submodule ".zsh/antigen-hs"]
+	path = .zsh/antigen-hs
 	url = https://github.com/Tarrasch/antigen-hs.git
-
+	branch = master
