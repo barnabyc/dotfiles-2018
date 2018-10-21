@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# todo: confirm we have perms to run apt install
 
 # this will pull down antigen-hs
 yadm submodule update --init --recursive
 
 # Install Haskell Stack dependency for antigen-hs
-apt install haskell-stack
+#apt install haskell-stack
+# todo: confirm we have perms to run apt install
 
 
 # todo: confirm exit code here before proceeding
