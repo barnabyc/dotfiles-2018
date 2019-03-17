@@ -9,3 +9,6 @@ alias gp='git pull'
 alias gbd='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort'
 alias rsyncmove="rsync --partial --progress --append --rsh=ssh -r -h --remove-source-files"
 
+# todo: move to a platform-specific file
+alias gx='/Applications/GitX.app/Contents/Resources/gitx -c'
+
