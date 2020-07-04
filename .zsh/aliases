@@ -1,4 +1,4 @@
-alias l='ls -alhFG --color=auto'
+alias l='ls -alhFG'
 alias mv='mv -v'
 alias cp='cp -Rvi'
 alias h='history'
